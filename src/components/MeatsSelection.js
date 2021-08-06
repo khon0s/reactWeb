@@ -22,7 +22,7 @@ function MeatsSelection() {
 export default MeatsSelection
 
 function redirectToChicken(){
-	window.location = "https://stoic-jennings-205e43.netlify.app/service/chicken"
+	window.location = "/service/chicken"
   }
   
   function redirectToBeef(){
@@ -36,7 +36,7 @@ function redirectToChicken(){
 	  }
 
 	  function redirectToLamb(){
-		window.location = "http://localhost:3000/service/lamb"
+		window.location = "/lamb"
 	  }
 
 const MeatWrapper = styled.div`

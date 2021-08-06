@@ -32,9 +32,9 @@ function App() {
 				<Route path="/contact" component={Contact} />
 				<Route path="/service" exact component={Service} />
 				<Route path="/service/chicken" component={ChickenGallery} />
-				<Route path="/service/beef" component={BeefGallery} />
-				<Route path="/service/pork" component={PorkGallery} />
-				<Route path="/service/lamb" component={LambGallery} />
+				<Route path="/beef" component={BeefGallery} />
+				<Route path="/pork" component={PorkGallery} />
+				<Route path="/lamb" component={LambGallery} />
 			</Router>
 			
 			<GlobalStyle></GlobalStyle>
