@@ -7,35 +7,35 @@ import lambIcon from "../img/meats/lamb.png"
 
 
 function MeatsSelection() {
-    return (
-			<MeatWrapper>
-			
+	return (
+		<MeatWrapper>
+
 			<MeatImg0 onClick={redirectToPork} ></MeatImg0>
 			<MeatImg1 onClick={redirectToBeef} ></MeatImg1>
 			<MeatImg2 onClick={redirectToLamb} ></MeatImg2>
 			<MeatImg3 onClick={redirectToChicken} ></MeatImg3>
-		
-			</MeatWrapper>
-		);
+
+		</MeatWrapper>
+	);
 }
 
 export default MeatsSelection
 
-function redirectToChicken(){
-	window.location = "http://localhost:3000/service/chicken"
-  }
-  
-  function redirectToBeef(){
-	  window.location = "http://localhost:3000/service/beef"
-	}
+function redirectToChicken() {
+	window.location = "https://stoic-jennings-205e43.netlify.app/service/chicken"
+}
 
-	function redirectToPork(){
-		window.location = "http://localhost:3000/service/pork"
-	  }
+function redirectToBeef() {
+	window.location = "https://stoic-jennings-205e43.netlify.app/service/beef"
+}
 
-	  function redirectToLamb(){
-		window.location = "http://localhost:3000/service/lamb"
-	  }
+function redirectToPork() {
+	window.location = "https://stoic-jennings-205e43.netlify.app/service/pork"
+}
+
+function redirectToLamb() {
+	window.location = "https://stoic-jennings-205e43.netlify.app/service/lamb"
+}
 
 const MeatWrapper = styled.div`
 display: flex;
