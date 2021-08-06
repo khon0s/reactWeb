@@ -28,7 +28,7 @@ function redirectToChicken(){
   function redirectToBeef(){
 	  const currUrl = window.location.href 
 	  console.log(currUrl)
-	  window.location = currUrl+"/service/beef" ;
+	  setInterval( () => {window.location = currUrl+"/beef"}, 3000 )
 	}
 
 	function redirectToPork(){
