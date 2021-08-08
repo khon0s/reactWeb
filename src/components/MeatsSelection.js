@@ -10,14 +10,23 @@ import { NavLink as Link } from "react-router-dom";
 function MeatsSelection() {
     return (
 			<MeatWrapper>
-			       <NavLink to="/service/pork" >
-     <MeatImg0 ></MeatImg0>
-        </NavLink>
-			
-			<MeatImg1 onClick={redirectToBeef} ></MeatImg1>
-			<MeatImg2 onClick={redirectToLamb} ></MeatImg2>
-			<MeatImg3 onClick={redirectToChicken} ></MeatImg3>
-		
+
+			<NavLink to="/service/pork" >
+				<MeatImg0 ></MeatImg0>
+			</NavLink>
+
+			<NavLink to="/service/beef" >
+				<MeatImg1></MeatImg1>
+			</NavLink>
+
+			<NavLink to="/service/lamb" >
+				<MeatImg2></MeatImg2>
+			</NavLink>
+
+			<NavLink to="/service/chicken" >
+				<MeatImg3  ></MeatImg3>
+			</NavLink>
+
 			</MeatWrapper>
 		);
 }
