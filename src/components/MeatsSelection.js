@@ -4,13 +4,16 @@ import chickenIcon from "../img/meats/chicken.png"
 import cowIcon from "../img/meats/cow.png"
 import pigIcon from "../img/meats/pinkPig.png"
 import lambIcon from "../img/meats/lamb.png"
+import { NavLink as Link } from "react-router-dom";
 
 
 function MeatsSelection() {
     return (
 			<MeatWrapper>
+			       <NavLink to="/service/pork" >
+     <MeatImg0 ></MeatImg0>
+        </NavLink>
 			
-			<MeatImg0 onClick={redirectToPork} ></MeatImg0>
 			<MeatImg1 onClick={redirectToBeef} ></MeatImg1>
 			<MeatImg2 onClick={redirectToLamb} ></MeatImg2>
 			<MeatImg3 onClick={redirectToChicken} ></MeatImg3>
@@ -75,4 +78,12 @@ width: 400px;
 height: 400px;
 cover-fit: none;
 background-image: url(${chickenIcon});
+`
+
+
+const NavLink = styled(Link)`
+
+  color: #fff;
+
+
 `

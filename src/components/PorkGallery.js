@@ -20,8 +20,9 @@ const images = [
 
 function PorkGallery() {
     return (
+        <>
         <ImageGallery items={images} style={{myStyles}} />
-        
+        </>
     )
 }
 

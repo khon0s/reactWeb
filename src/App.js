@@ -31,9 +31,9 @@ function App() {
 				<Route path="/about-me" component={AboutMe} />
 				<Route path="/contact" component={Contact} />
 				<Route path="/service" exact component={Service} />
-				<Route path="/service/chicken" component={ChickenGallery} />
+				<Route path="/service/chicken" exact component={ChickenGallery} />
 				<Route path="/beef" component={BeefGallery} />
-				<Route path="/pork" component={PorkGallery} />
+				<Route path="/service/pork" component={PorkGallery} />
 				<Route path="/lamb" component={LambGallery} />
 			</Router>
 			
